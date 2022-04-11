@@ -18,11 +18,11 @@ for (i = 48; i < 58; i++)
 
 putchar(i);
 
-for (ch = a; ch <= f; ch++)
+for (ch = 'a'; ch <= 'f'; ch++)
 
 putchar(ch);
 
-putchar(n);
+putchar('\n');
 
 return (0);
 
