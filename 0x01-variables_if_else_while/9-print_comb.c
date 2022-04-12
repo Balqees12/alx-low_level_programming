@@ -22,13 +22,13 @@ if (i != 57)
 
 {
 
-putchar(,);
+putchar(',');
 
-putchar( );
-
-}
+putchar(' ');
 
 }
-putchar(n);
+
+}
+putchar('\n');
 return (0);
 }
