@@ -11,12 +11,12 @@ void print_rev(char *s)
 int i, count;
 char c;
 i = 0;
-c = a;
+c = 'a';
 
-while (c != 0)
+while (c != '\0')
 {
 c = s[i];
-if (c != 0)
+if (c != '\0')
 i++;
 }
 
