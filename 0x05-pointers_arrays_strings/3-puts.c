@@ -13,15 +13,15 @@ void _puts(char *s)
 
 int i = 0;
 
-char c = a;
+char c = 'a';
 
-while (c != 0)
+while (c != '\0')
 
 {
 
 c = s[i];
 
-if (c != 0)
+if (c != '\0')
 
 _putchar(s[i]);
 
@@ -29,6 +29,6 @@ i++;
 
 }
 
-_putchar(n);
+_putchar('\n');
 
 }
