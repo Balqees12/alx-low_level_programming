@@ -14,7 +14,7 @@ int i = 0;
 
 int j;
 
-while (str[i] != 0)
+while (str[i] != '\0')
 
 i++;
 
@@ -28,6 +28,6 @@ _putchar(str[j]);
 
 }
 
-_putchar(n);
+_putchar('\n');
 
 }
