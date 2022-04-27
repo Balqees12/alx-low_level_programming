@@ -11,9 +11,9 @@ int _strlen(char *s)
 {
 int i = 0;
 
-char c = n;
+char c = 'n';
 
-while (c != 0)
+while (c != '\0')
 {
 c = s[i];
 i++;
