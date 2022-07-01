@@ -26,11 +26,9 @@ if (m != 55 || n != 56)
 
 {
 
-putchar(,);
+putchar(',');
 
-putchar( );
-
-}
+putchar(' ');
 
 }
 
@@ -40,7 +38,9 @@ putchar( );
 
 }
 
-putchar(n);
+}
+
+putchar('\n');
 
 return (0);
 
