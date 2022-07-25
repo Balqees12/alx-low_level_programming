@@ -27,7 +27,7 @@ while (a < size)
 a++;
 }
 
-*(p + a) = 0;
+*(p + a) = '\0';
 
 return (p);
-} 
+}
